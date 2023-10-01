@@ -45,7 +45,7 @@ export const FooterImpl: React.FC = () => {
             href='#'
             role='button'
             onClick={onToggleDarkMode}
-            title='Toggle dark mode'
+           title='Toggle dark mode'
           >
             {isDarkMode ? <IoMoonSharp /> : <IoSunnyOutline />}
           </a>
@@ -58,7 +58,7 @@ export const FooterImpl: React.FC = () => {
           <a
             className={styles.twitter}
 	    href={`https://${config.domain}`}
-	    title={`Twitter @${config.twitter}`}
+	    title={`Homepage @${config.domain}`}
             target='_blank'
             rel='noopener noreferrer'
           >
