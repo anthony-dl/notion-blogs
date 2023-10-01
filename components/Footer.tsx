@@ -3,6 +3,7 @@ import * as React from 'react'
 import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
+import { FaHome } from '@react-icons/all-files/fa/FaHome'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
@@ -52,6 +53,19 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div className={styles.social}>
+
+        {config.domain && (
+          <a
+            className={styles.twitter}
+	    href={`https://${config.domain}`}
+	    title={`Twitter @${config.twitter}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaHome />
+          </a>
+        )}
+
         {config.twitter && (
           <a
             className={styles.twitter}

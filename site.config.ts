@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'vu-leduc@github.io',
+  name: 'Vu Le',
+  domain: 'vu-leduc.github.io',
   author: 'Vu Le',
 
   // open graph metadata (optional)

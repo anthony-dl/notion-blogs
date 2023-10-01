@@ -1,10 +1,6 @@
-<p align="center">
-  <a href="https://transitivebullsh.it/nextjs-notion-starter-kit">
-    <img alt="Example article page" src="https://user-images.githubusercontent.com/552829/160132094-12875e09-41ec-450a-80fc-ae8cd488129d.jpg" width="689">
-  </a>
-</p>
+## https://vu-leduc.github.io/blog/easy-blogging-with-notion-nextjs-github-pages
 
-# Next.js Notion Starter Kit
+# Next.js + Notion website
 
 > The perfect starter kit for building websites with Next.js and Notion.
 
